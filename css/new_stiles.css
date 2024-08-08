@@ -1,0 +1,13 @@
+div1 {
+    background-color: black;
+}
+p1 {
+    text-justify: inter-word;
+    color: white;
+    justify-self: start;
+    position: static;
+    width: 15;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

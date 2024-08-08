@@ -2,10 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- my -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/new_stiles.css" rel="stylesheet">
+    <link rel="icon" href="public/logo1.png">
+    <title>Home</title>
 </head>
 <body>
-    <p>404</p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand text-danger p-2 fs-1 fw-bold" href="./index.html">
+                    La fé
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse px-5 p-2 fs-3 justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="./templates/dates.html">Fechas</a>
+                        <a class="nav-link" aria-current="page" href="./templates/download.html">Descargas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
+<main>
+    <div class="row row-cols-1 row-cols-xl-1 g-4">
+        <!-- FOTO PORTADA -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h1 class="card-title text-danger fw-bold shadow-sm">
+                        Aqui va un titulo
+                    </h1>
+                    <div class="text-center rounded my-2">
+                        <img src="./public/current.jpg" class="img-fluid rounded" alt="to be continue">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- texto1 -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestiae excepturi iste nemo, dolore temporibus vel veniam maiores iusto perferendis dolores cum est quae quisquam dignissimos ea alias itaque nisi!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- texto2 -->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestiae excepturi iste nemo, dolore temporibus vel veniam maiores iusto perferendis dolores cum est quae quisquam dignissimos ea alias itaque nisi!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Acordion item-->
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h2>Titulo acordion</h2>
+                    <div class="acordion acordion-flush" id="acordionFlushExample">
+                        <!--acordion1-->
+                       <div class="accordion-item">
+                         <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <h4>
+                                    info1
+                                </h4>
+                            </button>
+                         </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quod rem iusto eos ratione magni. Optio provident non recusandae! Debitis, vitae eaque. Suscipit saepe nesciunt libero vitae, reprehenderit voluptas culpa!
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                        <!--Acordion2-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                   <h4>
+                                       info2
+                                   </h4>
+                               </button>
+                            </h2>
+                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                               <div class="accordion-body">
+                                   <p>
+                                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quod rem iusto eos ratione magni. Optio provident non recusandae! Debitis, vitae eaque. Suscipit saepe nesciunt libero vitae, reprehenderit voluptas culpa!
+                                   </p>
+                               </div>
+                           </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bannner para cerrar -->
+        <div class="col">
+            <div1 class="card shadow">
+                <div1 class="card-body">
+                    <p1>
+                        <b>Todos los derechos reservados</b>
+                    </p1>
+                </div1>
+            </div1>
+        </div>
+
+    </div>
+
+</main>
+
 </html>
